@@ -1,0 +1,34 @@
+# Project information
+site_name: Loic M Martin science portfolio at CEA
+site_url: https://github.com/loicmmartincea.github.io
+site_author: Loic M Martin
+site_description: >-
+  I'am Loic M Martin, PhD. and Data scientist, 
+  and you are here on my data science portfolio
+
+# Repository
+repo_name: LoicMMartinCEA/github.io
+repo_url: https://github.com/loicmmartincea/github.io
+
+# Configuration
+theme:
+  name: material
+
+# Additional configuration
+#extra:
+#  analytics:
+#    provider: google
+#    property: <google analystics code>
+
+# Page tree
+nav:
+- Home: index.md
+- Examples_Python:
+   -"Examples_Python": Examples_Python/20python_functions.ipynb
+   -"Install_Package": Examples_Python/Install_Package.ipynb
+- PacBio_VHH_TNF:
+   -"Readme": PacBio_VHH_TNF/README.md
+   -"Notebook": PacBio_VHH_TNF/v3_WO_Codes.ipynb
+nav:
+- About: about.md  
+
