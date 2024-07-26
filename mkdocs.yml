@@ -1,24 +1,24 @@
 # Project information
 site_name: Loic M Martin science portfolio at CEA
-site_url: https://github.com/loicmmartincea.github.io
+site_url: https://loicmmartincea.github.io/
 site_author: Loic M Martin
 site_description: >-
-  I'am Loic M Martin, PhD. and Data scientist, 
+  I'am Loic M Martin, PhD. and Data scientist at CEA Saclay, 
   and you are here on my data science portfolio
 
 # Repository
-repo_name: LoicMMartinCEA/github.io
-repo_url: https://github.com/loicmmartincea/github.io
+repo_name: LoicMMartinCEA/loicmmartincea.github.io
+repo_url: https://github.com/LoicMMartinCEA/loicmmartincea.github.io
 
 # Configuration
 theme:
   name: material
 
 # Additional configuration
-#extra:
-#  analytics:
-#    provider: google
-#    property: <google analystics code>
+extra:
+  analytics:
+    provider: google
+    property: <google analystics code>
 
 # Page tree
 nav:
