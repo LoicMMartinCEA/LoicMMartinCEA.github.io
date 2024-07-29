@@ -10,25 +10,41 @@ site_description: >-
 repo_name: LoicMMartinCEA/loicmmartincea.github.io
 repo_url: https://github.com/LoicMMartinCEA/loicmmartincea.github.io
 
+### Configuration de la stucture de navigation
+# Dossier source, chemin relatif au fichier mkdocs.yml
+docs_dir: docs
+# Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
+nav: 
+  - La page d'accueil : index.md
+
 # Configuration
 theme:
   name: material
+  logo: first_page/photo.jpg # image qui apparait dans l'en tête à gauche du titre de la page
 
 # Additional configuration
-extra:
-  analytics:
-    provider: google
-    property: <google analystics code>
+#extra:
+#  analytics:
+#    provider: google
+#    property: <google analystics code>
 
 # Page tree
 nav:
-- Home: index.md
-- Examples_Python:
-   -"Examples_Python": Examples_Python/20python_functions.ipynb
-   -"Install_Package": Examples_Python/Install_Package.ipynb
-- PacBio_VHH_TNF:
-   -"Readme": PacBio_VHH_TNF/README.md
-   -"Notebook": PacBio_VHH_TNF/v3_WO_Codes.ipynb
-nav:
-- About: about.md  
 
+- Home: about.md
+- Publications:
+   "Loïc Martin's Publications": Publications/publications.md 
+- Examples_Python:
+   "Examples_Python": Examples_Python/20python_functions.ipynb
+   "Install_Package": Examples_Python/Install_Package.ipynb
+- PacBio_VHH_TNF:
+   "Readme": PacBio_VHH_TNF/README.md
+   "Notebook": PacBio_VHH_TNF/v3_WO_Codes.ipynb
+   
+- Index: index.md   
+
+plugins:
+  - mkdocs-jupyter
+  
+extra_css:
+  - first_page/extra.css
