@@ -31,7 +31,7 @@ theme:
 # Page tree
 nav:
 
-- Some information about our Team: about.md
+- Some_information_about_our_Team: about.md
 - Publications:
    "Loïc Martin's Publications": Publications/publications.md 
 - Examples_Python:
